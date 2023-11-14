@@ -167,7 +167,10 @@ Sponsor Bank-> corporate:Invaild Mandate {
 
 ## E-mandate through Debit card authentication - Process flow
 
+![Alt text](n3.png)
 
+
+![Alt text](n4.png)
 
 ~~~
 E-mandate through Debit card authentication - Process flow: {
@@ -250,6 +253,9 @@ eNACH API interface->Corporate:Acceptance/Reject status {
 
 }
 ~~~
+
+## Aadhaar seeding
+
 
 
 
