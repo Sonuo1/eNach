@@ -1,0 +1,95 @@
+eNACH Process {
+    customer.style: {
+
+        stroke: red
+        
+        stroke-dash: 0
+      
+      }
+
+      corporate.style: {
+
+        stroke: blue
+      
+        stroke-dash: 0
+      
+      }
+
+      Sponsor Bank.style: {
+
+        stroke: orange
+      
+        stroke-dash: 0
+      
+      }
+
+      NPCI.style: {
+
+        stroke: maroon
+      
+        stroke-dash: 0
+      
+      }
+
+      Destination Bank.style: {
+
+        stroke: green
+      
+        stroke-dash: 0
+      
+      }
+shape: sequence_diagram
+
+customer: { shape: person }
+
+customer ->corporate : fill all mandate form {
+    style.animated: true
+}
+
+corporate -> Sponsor Bank: Update mandate {
+    style.animated: true
+}
+Sponsor Bank-> NPCI: Scan mandate and update {
+    style.animated: true
+}
+NPCI-> Destination Bank: Update and generate UMRN no. {
+    style.animated: true
+}
+Destination Bank->customer:Match customer details and sent mandate sms to the customer with UMRN {
+    style.stroke:orange 
+    style.animated: true
+}
+customer-> Destination Bank: Accepted {
+    style.stroke:green
+    style.animated: true
+}
+Destination Bank-> NPCI:Response Approved {
+    style.stroke:green
+    style.animated: true
+}
+NPCI->Sponsor Bank:Save & Update {
+    style.stroke:green
+    style.animated: true
+}
+Sponsor Bank-> corporate:Verified customer {
+    style.stroke:green
+    style.animated: true
+}
+
+customer->Destination Bank:Rejected {
+    style.stroke:red
+    style.animated: true
+}
+Destination Bank-> NPCI: Not recornized by customer {
+    style.stroke:red
+    style.animated: true
+}
+NPCI-> Sponsor Bank:Invalid Mandate {
+    style.stroke:red
+    style.animated: true
+}
+Sponsor Bank-> corporate:Invaild Mandate {
+    style.stroke:red
+    style.animated: true
+}
+}

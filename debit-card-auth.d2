@@ -1,0 +1,79 @@
+E-mandate through Debit card authentication - Process flow: {
+shape: sequence_diagram
+customer: { shape: person }
+customer.style: {
+
+    stroke: red
+    
+    stroke-dash: 0
+  
+  }
+
+  Corporate.style: {
+
+    stroke: blue
+    
+    stroke-dash: 0
+  
+  }
+
+  eNACH API interface.style: {
+
+    stroke: maroon
+    
+    stroke-dash: 0
+  
+  }
+
+  Internet Banking Page.style: {
+
+    stroke: orange
+    
+    stroke-dash: 0
+  
+  }
+
+  Destination Bank.style: {
+
+    stroke: green
+    
+    stroke-dash: 0
+  
+  }
+
+  
+
+Customer->Corporate:1 Mandate initiation {
+    style.animated: true
+}
+
+Corporate -> eNACH API interface:2 Mandate request to API system {
+    style.animated: true
+}
+
+eNACH API interface->Internet Banking Page:Redirect {
+    style.animated: true
+}
+Customer->Internet Banking Page: Authentication using Debit card details and OTP. {
+    style.animated: true
+    style.stroke:green
+}
+Internet Banking Page->Destination Bank:CBS validation request {
+    style.animated: true
+}
+Destination Bank-> Internet Banking Page: Validation status {
+    style.animated: true
+    style.stroke:green
+}
+
+Internet Banking Page->eNACH API interface:Mandate authorization status {
+    style.animated: true
+    style.stroke:green
+}
+
+eNACH API interface->Corporate:Acceptance/Reject status {
+    style.animated: true
+    style.stroke:green
+}
+
+}
