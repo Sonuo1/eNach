@@ -254,7 +254,132 @@ eNACH API interface->Corporate:Acceptance/Reject status {
 }
 ~~~
 
-## Aadhaar seeding
+
+
+## Fino Payment bank
+
+**Fino Payment Bank** is also like any other bank but operates on a smaller scale involving any credit risk.
+
+It accepts deposits up to **1 lakhs**.
+
+It offers remittance services like **Mobile payment, transfer, purchase** and other banking services like ATM Debit cards, Netbanking and third party fund transfer.
+
+### Fino Product 
+
+**Saving Account**
+
+Fino payment banks offers 8 type of saving account are as follow:
+
+* FinoPay Savings Account
+* Subh Savings Account
+* Pratham Savings Account
+* Saral Savings Account
+* Suvidha Account
+* Bhavishya Savings Account
+* Jan Savings Account
+* Aarambh Savings Account
+
+**Current Account** 
+
+Fino Payment Bank offer two type of current account as follow:
+
+* Pragati current account 
+* Sampann current account
+
+ 
+**Payments**
+
+Fino payment banks offer these four types of payments are as follow:
+
+* Domestic Money Transfer
+* Aadhaar Enabled Payment System
+* Recharge 
+* Bill Payments
+
+**Insurance**
+
+Fino payment Bank offer four type of insurance are as follow:
+
+* Life Insurance
+* Health insurance
+* Two wheeler insurance
+* Shopkeeper Insurance
+
+
+**Cards**
+
+Fino Payment Bank offer three type of cards are as follows:
+
+* Classic debit card
+* Platinum debit card
+* Prepaid card
+
+**UPI (Unified payment interface)**
+
+**UPI**, or **Unified Payments Interface**, is a platform by NPCI that makes it easy for different banks to work together. It's like having one app for all your bank accounts. With UPI, you can send and receive money using your smartphone. You just need a virtual payment address **(VPA) or UPI ID** – no need to share your bank details, making things simpler.
+
+**Micro ATM**
+
+Fino Payment Bank offer Micro ATM whose limit is **2000**
+
+**FastTag**
+
+FASTags are stickers on car windshields that connect to our wallet. They let you drive through toll booths without stopping.
+**Fino FASTags** are rolled out as a part of **National Electronic Toll Collection (NETC)** Programme governed by **National Highways Authority of India (NHAI)** and **Indian Highways Management Company Limited (IHMCL)**.
+
+**Feature**
+
+* Ease of payment – No need to carry cash for toll transactions, saves time
+* Enables non-stop movement of vehicles leading to lower fuel cost.
+* Online Recharge – FASTag is linked to your wallet account which can be loaded through credit /debit card or net banking
+* SMS alerts for toll transactions, low balance
+
+**Aadhaar Seeding**
+
+It is a process to link the bank account to Aadhaar. Fino Payment Bank is also part of the Aadhaar Authentication ecosystem.
+
+Fino Payment Bank also has a tie up with  **PFMS(Public Financial Management System)** for catering to a larger section of customers who can avail  DBT benefit.
+
+Aadhaar seeding allows the customer to avail various government benefits directly in your Fino Payments Bank Account. Fino provides this facility to all our savings account customers. Customers  can opt for this facility while opening your account.
+
+**Sweep Account Facility** 
+
+Fino is associated with **Suryoday Small Finance Bank** has launched a **‘Sweep Account’** facility for their customers.
+
+For this using functionality customers can deposit, withdraw and receive **more** than **2 lakhs** in their account.
+
+No additional charges are required for this.
+Fino gives a higher rate of interest up to **7.50%** per annum.
+This functionality is available for **saving** as well as a **current account**.
+
+**UPI for Marchent **
+
+This Amount is credited in **Pragati current account**.
+Registration process is easy.
+Registration charge is not required.
+No settlement charge
+Real time settlement
+
+
+**Cash Bazaar**
+
+In **cash bazaar**Fino Payment Bank provides **Cash In** and **Cash out** facilities.
+
+**Whatsapp Banking**
+
+**Fino Payment Bank** gave **whatsapp Banking** facilities.
+To use this facility, customer **add** a registered number on **whatsapp**.
+Then start the conversation and interact more.
+Service available **24/7*365**
+
+
+
+
+
+
+
+
+
 
 
 
