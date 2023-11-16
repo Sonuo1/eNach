@@ -352,7 +352,9 @@ No additional charges are required for this.
 Fino gives a higher rate of interest up to **7.50%** per annum.
 This functionality is available for **saving** as well as a **current account**.
 
-**UPI for Marchent**
+
+**UPI for Marchent** 
+
 
 This Amount is credited in **Pragati current account**.
 Registration process is easy.
