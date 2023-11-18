@@ -159,7 +159,7 @@ Sponsor Bank-> corporate:Invaild Mandate {
 }
 ~~~
 
-![Alt text](n2.png)
+![Alt text](n1.png)
 
 
 ![Alt text](n2.png)
