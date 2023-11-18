@@ -34,18 +34,18 @@ Here is steps of NACH how it works:
 
 **Step 5:** Destination Bank firstly checks the details given by the NPCI if details matched then it sends the verification mandates to the customer and updates the records.
 
-**Step 6:** If the Customer accepts the request then the Destination Bank shares the response approved.
+**Step 6** If the Customer accepts the request then the Destination Bank shares the response approved.
 
-**Step 7:** NPCI save and update the details then share the response to the Sponsor Bank.
+**Step 7** NPCI save and update the details then share the response to the Sponsor Bank.
 
-**Step 8:** Sponsor Bank share the response Verified customer  to the Corporate
+**Step 8** Sponsor Bank share the response Verified customer  to the Corporate
 
 
-**Step 9:** If Customer reject the request the the Destination Bank share the response eMandate not recognized by the customer to the NPCI
+**Step 9** If Customer reject the request the the Destination Bank share the response eMandate not recognized by the customer to the NPCI
 
-**Step 10:** NPCI share the response eMandate not recognized by customer to the Sponsor bank 
+**Step 10** NPCI share the response eMandate not recognized by customer to the Sponsor bank 
 
-**Step 11:** Sponsor Bank shares the response Invalid user to the Corporate.
+**Step 11** Sponsor Bank shares the response Invalid user to the Corporate.
 
 
 ~~~
@@ -352,9 +352,7 @@ No additional charges are required for this.
 Fino gives a higher rate of interest up to **7.50%** per annum.
 This functionality is available for **saving** as well as a **current account**.
 
-
-**UPI for Marchent** 
-
+**UPI for Marchent **
 
 This Amount is credited in **Pragati current account**.
 Registration process is easy.
